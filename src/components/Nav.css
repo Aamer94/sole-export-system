@@ -1,0 +1,13 @@
+.languages {
+    color: #fff;
+    font-size: 36px;
+    padding-left: 20px;
+}
+
+.languages:hover {
+    color: #fb8500;
+}
+
+a:hover {
+    color: #fb8500 !important;
+}

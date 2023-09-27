@@ -1,0 +1,89 @@
+.detils-product {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 5%;
+    z-index: 10;
+    transition: 1s;
+}
+
+.detils-product .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.detils-product .detils-content {
+    width: 80%;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    /* display: flex;
+    align-items: center; */
+
+
+}
+
+.detils-product .detils-content .continer-detils {
+    height: 100%;
+    position: relative;
+}
+
+
+.detils-product .detils-content .continer-detils .detils {
+    height: 100%;
+overflow-y: scroll;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+.detils-product .detils-content .continer-detils .detils h2{
+    color: black;
+}
+
+.detils-product .detils-content .continer-detils .detils .img-detils {
+    height: 100%;
+    width: 100%;
+}
+
+.detils-product .detils-content img {
+    width: 70%;
+    height: 80%;
+    border-radius: 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.detils-product .detils-content p {
+color: rgba(0, 0, 0, 0.2);
+}
+.detils-content .colse-icon {
+    float: right;
+    cursor: pointer;
+    padding: 20px;
+    font-size: 36px;
+    border-radius: 50%;
+    position: absolute;
+    right: 10%;
+}
+.btn{
+    background-color: #fb8500 !important;
+    padding: 10px;
+    border: 0;
+}
+.btn:hover{
+    background-color: #d90429 !important;
+    color: #01161e;
+}
+.colse-icon:hover {
+    color: red;
+    transform: rotate(90deg);
+}
