@@ -9,5 +9,17 @@ padding: 50px;
  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 border-radius: 20px;
 overflow: scroll;
+}
+.col-form{
+   
+    display: flex;
+    justify-content: center;
+
+}
+.col-form form{
+    color: #fff;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
 
 }

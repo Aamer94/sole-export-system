@@ -19,6 +19,7 @@ export default function RequestForm({ toggleShowForm }) {
             }, (error) => {
                 console.log(error.text);
             });
+        toggleShowForm();
     };
 
 
@@ -42,22 +43,38 @@ export default function RequestForm({ toggleShowForm }) {
     //     // You can add code to send the data to your server or perform other actions here.
     // };
     return (
-        <div>
-            <form ref={form} onSubmit={sendEmail}>
-                <label>Name</label>
-                <input type="text" name="user_name" />
-                <label>Email</label>
-                <input type="email" name="user_email" />
-                <label>Message</label>
-                <textarea name="message" />
-                <input type="submit" value="Send" />
-            </form>
-        </div>
 
-        // <Container className='form-request'>
-        //     <Row>
-        //         <Col sm={6} md={12}>
 
+        <Container className='form-request'>
+            <Row>
+                <Col className='col-form' sm={6} md={12}>
+
+
+                    <form ref={form} onSubmit={sendEmail}>
+                        <label>Name</label>
+                        <input type="text" name="user_name" />
+                        <label>Mobile</label>
+                        <input type="text" name="user_mobile" />
+                        <label>Email</label>
+                        <input type="email" name="user_email" />
+                        <label>Product Name</label>
+                        <input type="text" name="product_name" />
+                        <label>Product Quantity</label>
+                        <input type="text" name="product_quantity" />
+                        <label>Port Access</label>
+                        <input type="text" name="portaccess" />
+                        <label>Note</label>
+                        <textarea name="message" />
+                        <input type="submit" className='btn' value="Send" />
+                    </form>
+
+
+                </Col>
+
+            </Row>
+
+
+        </Container>
         //             <InputGroup className="mb-3">
         //                 <InputGroup.Text id="inputGroup-sizing-sm">Name:</InputGroup.Text>
         //                 <Form.Control
@@ -101,12 +118,5 @@ export default function RequestForm({ toggleShowForm }) {
         //                     aria-describedby="inputGroup-sizing-sm"
         //                 />
         //             </InputGroup>
-
-        //         </Col>
-
-        //     </Row>
-        //     <Button className='btn' onClick={toggleShowForm}>Submit</Button>
-
-        // </Container>
     )
 }
