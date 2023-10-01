@@ -7,6 +7,11 @@ const data = [
         name: 'Fos',
         image: fos,
     },
+    {
+        id: 101,
+        name: 'Fos',
+        image: fos,
+    },
 
     // Add more items as needed
 ];

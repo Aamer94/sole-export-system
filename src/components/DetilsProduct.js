@@ -13,7 +13,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClose } from '@fortawesome/free-solid-svg-icons'
 import RequestForm from './RequestForm';
 
-export default function DetilsProduct({ toggleShowDetils }) {
+export default function DetilsProduct({ toggleShowDetils, data }) {
     const [showForm, setShowForm] = useState(false);
     const toggleShowForm = () => {
         setShowForm(!showForm);
@@ -34,19 +34,18 @@ export default function DetilsProduct({ toggleShowDetils }) {
                             <Col sm={6} >
                                 <div className='img-detils'>
                                     <img src={pro8} alt='details' />
-
                                 </div>
                             </Col>
                             <Col sm={6} >
                                 <div className='p-2'>
 
-                                    <h2>product</h2>
+                                    <h2>{data[1].name} </h2>
                                     <p>
                                         This makeup product is a versatile and long-lasting foundation
                                         that provides a smooth and flawless complexion.
-                                        no gore 
+                                        no gore
                                         This makeup product is a versatile and long-lasting
-                                        This makeup product is a versatile and long-lasting foundatihrue 
+                                        This makeup product is a versatile and long-lasting foundatihrue
                                         on
                                         that provides a smooth and flawless complexion.
                                         This makeup product is a versatile and long-lasting
