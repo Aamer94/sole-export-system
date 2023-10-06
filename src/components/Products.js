@@ -13,11 +13,14 @@ import { useTranslation } from 'react-i18next';
 
 export default function Products() {
     const { t } = useTranslation();
-
+    const [selectedProduct, setSelectedProduct] = useState(null);
     const [showDetils, setShowDetils] = useState(false);
     const toggleShowDetils = () => {
         setShowDetils(!showDetils);
     }
+    const Fselectedproduct = (product) => {
+        setSelectedProduct(product);
+    };
     return (
         // <div>
         //     <Container className='text-center continer-products'>
@@ -52,12 +55,12 @@ export default function Products() {
         <Container className='text-center continer-products'>
 
             <h1>{t('Products')}</h1>
-            {showDetils && <DetilsProduct data={Data} toggleShowDetils={toggleShowDetils} />}
+            {showDetils && <DetilsProduct data={selectedProduct} toggleShowDetils={toggleShowDetils} />}
             <Row>
                 {Data.map((item) => (
 
                     <Col sm={6} key={item.id} className='col-product'>
-                        
+
                         <Card className='card pg-danger'>
                             <Card.Img variant="top" src={item.image} className='img-product' />
                             <Card.Body className='card-body'>
@@ -67,7 +70,7 @@ export default function Products() {
                                     bulk of the card's content.
                                 </Card.Text>
                                 <div>
-                                    <Button variant="primary" onClick={toggleShowDetils}>Review</Button>
+                                    <Button variant="primary" onClick={() => { toggleShowDetils(); Fselectedproduct(item); }}>Review</Button>
 
                                 </div>
                             </Card.Body>

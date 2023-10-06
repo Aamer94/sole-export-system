@@ -5,11 +5,13 @@ const data = [
     {
         id: 100,
         name: 'Fos',
+        detils:'This makeup product is a versatile and long-lasting foundationthat provides a smooth and flawless complexion',
         image: fos,
     },
     {
         id: 101,
         name: 'Fos',
+        detils:'This makeup product is a versatile and long-lasting foundationthat provides a smooth and flawless complexion',
         image: fos,
     },
 
@@ -49,6 +51,8 @@ imageContext.keys().forEach((imagePath, index) => {
     const item = {
         id,
         name: `Item ${id}`,
+        detils: `Item ${id} This makeup product is a versatile and long-lasting foundation
+        that provides a smooth and flawless complexion`,
         image,
     };
 

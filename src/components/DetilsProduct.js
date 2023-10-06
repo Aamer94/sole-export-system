@@ -33,24 +33,15 @@ export default function DetilsProduct({ toggleShowDetils, data }) {
 
                             <Col sm={6} >
                                 <div className='img-detils'>
-                                    <img src={pro8} alt='details' />
+                                    <img src={data.image} alt='details' />
                                 </div>
                             </Col>
                             <Col sm={6} >
                                 <div className='p-2'>
 
-                                    <h2>{data[1].name} </h2>
+                                    <h2>{data.name} </h2>
                                     <p>
-                                        This makeup product is a versatile and long-lasting foundation
-                                        that provides a smooth and flawless complexion.
-                                        no gore
-                                        This makeup product is a versatile and long-lasting
-                                        This makeup product is a versatile and long-lasting foundatihrue
-                                        on
-                                        that provides a smooth and flawless complexion.
-                                        This makeup product is a versatile and long-lasting
-                                        This makeup product is a versatile and long-lasting foundation
-                                        that provides a smooth and flawless complexion.
+                                        {data.detils}
                                     </p>
                                     <Button onClick={toggleShowForm}>Requst</Button>
                                 </div>
