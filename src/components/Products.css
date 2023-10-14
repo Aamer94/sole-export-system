@@ -23,6 +23,7 @@
 .card-body {
     position: absolute;
     top: 34%;
+    width: 100%;
     cursor: pointer;
     transition: 1s;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
