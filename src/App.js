@@ -1,5 +1,6 @@
 import './App.css';
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import NavBar from './components/NavBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Products from './components/Products';
@@ -9,9 +10,35 @@ import AppRouter from './Router';
 
 function App() {
   return (
+    
     <div>
+            <Helmet>
+        <title>Sole Export</title>
+        <meta name="description" content="Page description" />
+        <meta name="keywords" content="تصدير,استيراد,export,import,
+        Fos,fos export,
+        Fruits,Fruits export
+        ,Frozen Strawbery,Frozen Strawbery export
+        ,Frozen Pomogranate,Frozen Pomogranate export,
+        سماد,تصدير سماد,تصدير فواكه, تصدير فراولة مجمده
+        , تصدير فواكه مجمده, خضراوات,
+        تصدير خضراوات , تصدير خضراوات مجمده
+         , رمان 
+         ,تصدير رمان مجمده ,سبانخ ,بطاطس ,تصدير بطاطس ,
+         nuts ,export nuts,phosphate,
+         phosphate export,legumes,legumes export,sesames,
+         export seesames,spices,export spices,
+         fresh vegetables,frozen fruits and vegetables,
+         oil and fats,varity of honey,
+         coal and firewood,export coal and firewood,
+         dried fruits, export dried fruits 
+
+        " />
+     
+      </Helmet>
       <AppRouter />
-<Products />
+      <Products />
+      <AboutUs />
       {/* <NavBar />
       <BgHome />
       <Products />

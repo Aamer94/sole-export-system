@@ -10,6 +10,7 @@ import DetilsProduct from './DetilsProduct';
 import Data from './Data'
 
 import { useTranslation } from 'react-i18next';
+import AboutUs from './AboutUs';
 
 export default function Products() {
     const { t } = useTranslation();
@@ -94,7 +95,8 @@ export default function Products() {
                 </Col> */}
 
             </Row>
-
+         
         </Container>
+
     )
 }
