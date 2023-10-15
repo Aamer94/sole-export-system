@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 export default function AboutUs() {
     return (
-        <div className='about-us'>
+        <div className='about-us' fixed="bottom">
             <Container>
                 <Row className='text-center'>
                     <Col sm={12} md={12}>

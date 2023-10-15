@@ -54,9 +54,10 @@ export default function Products() {
         // </div>
         <Container className='text-center continer-products'>
 
-            <h1>{t('Products')}</h1>
+            <h1>Products</h1>
             {showDetils && <DetilsProduct data={selectedProduct} toggleShowDetils={toggleShowDetils} />}
             <Row>
+
                 {Data.map((item) => (
 
                     <Col sm={6} key={item.id} className='col-product'>

@@ -5,15 +5,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Products from './components/Products';
 import BgHome from './components/BgHome';
 import AboutUs from './components/AboutUs';
+import AppRouter from './Router';
 
 function App() {
   return (
     <div>
-      
-      <NavBar />
+      <AppRouter />
+<Products />
+      {/* <NavBar />
       <BgHome />
       <Products />
-      <AboutUs />
+      <AboutUs /> */}
     </div>
   );
 }

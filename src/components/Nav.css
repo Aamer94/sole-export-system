@@ -7,7 +7,13 @@
 .languages:hover {
     color: #fb8500;
 }
-
+a{
+    
+    align-self: center;
+    text-decoration: none !important;
+    color: #fff !important;
+    padding-right: 15px;
+}
 a:hover {
     color: #fb8500 !important;
 }
