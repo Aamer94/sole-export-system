@@ -17,9 +17,16 @@
     border: 0;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-
+    animation: slide-in 1s ease-in-out;
 }
-
+@keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
 .card-body {
     position: absolute;
     top: 34%;

@@ -13,9 +13,12 @@ function App() {
     
     <div>
             <Helmet>
-        <title>Sole Export</title>
+        <title>Ilsole Export</title>
         <meta name="description" content="Page description" />
-        <meta name="keywords" content="تصدير,استيراد,export,import,
+        <meta name="keywords" content="
+        مصر,egypt,تصدير من مصر ,export from egypt,
+        تصدير من مصر الى أي مكان,export from egypt to anywhay,
+        مصر,تصدير,استيراد,export,import,
         Fos,fos export,
         Fruits,Fruits export
         ,Frozen Strawbery,Frozen Strawbery export

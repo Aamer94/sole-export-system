@@ -12,8 +12,8 @@ export default function BgHome() {
                 <Container className='content-home'>
                     <Row>
                         <Col sm={8} className='text-center'>
-                            <p> Welcome To Sole Export Group</p>
-                            <p className='content-home-detils'>Bridging The Gap Between Buyers And SelleRs </p>
+                            <p> Welcome To Il Sole Export Group</p>
+                            <p className='content-home-detils'>Bridging The Gap Between Buyers And Sellers </p>
                         </Col>
                     </Row>
                 </Container>

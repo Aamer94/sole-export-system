@@ -78,7 +78,11 @@ export default function Products() {
                             {/* <div className='overlay'></div> */}
                         </Card>
 
-                    </Col>))}
+                    </Col>
+                    
+                    
+
+                    ))}
 
                 {/* <Col sm={6} className='col-product'>
                     <Card className='card' >

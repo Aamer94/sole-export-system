@@ -25,7 +25,7 @@ export default function NavBar() {
         <Navbar expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark" fixed="top">
             <Container>
                 <Navbar.Brand >
-               <Link to="/"> Sole Express</Link>     
+               <Link to="/"> Il Sole Export</Link>     
                     </Navbar.Brand>
 
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
