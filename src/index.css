@@ -5,7 +5,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
+
+/* Customize the scrollbar track */
+::-webkit-scrollbar {
+  width: 5px;
+
+  
+}
+
+/* Customize the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #ff6600; /* Change this to the desired color */
+  border-radius: 8px;
+}
+
+/* Customize the scrollbar track on hover */
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0); /* Change this to the desired color */
+}
+
+/* Customize the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff9933; /* Change this to the desired color */
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

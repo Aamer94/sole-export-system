@@ -40,8 +40,8 @@ function App() {
      
       </Helmet>
       <AppRouter />
-      <Products />
-      <AboutUs />
+     
+     
       {/* <NavBar />
       <BgHome />
       <Products />

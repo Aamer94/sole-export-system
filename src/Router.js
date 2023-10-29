@@ -26,6 +26,7 @@ const AppRouter = () => {
                 <Route path='/' exact  element={ <BgHome /> }  ></Route>
                 <Route path='/products' element={<Products />} /> 
                 <Route path='aboutUs' element={ <AboutUs />} />
+               
             </Routes>
         </Router>
     )

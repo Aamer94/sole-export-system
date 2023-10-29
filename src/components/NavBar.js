@@ -22,7 +22,7 @@ export default function NavBar() {
 
 
     return (
-        <Navbar expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark" fixed="top">
+        <Navbar expand="lg" className="bg-body-tertiary"  bg="dark" data-bs-theme="dark" fixed="top">
             <Container>
                 <Navbar.Brand >
                <Link to="/"> Il Sole Export</Link>     
@@ -39,7 +39,7 @@ export default function NavBar() {
 
 
                         <Link to="/products">Products</Link>
-                        <Link to="/">About Us</Link>
+                        <Link to="/aboutUs">About Us</Link>
                         <Link to="/">Contact Us</Link>
 
                         
