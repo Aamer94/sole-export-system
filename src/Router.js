@@ -4,6 +4,7 @@ import BgHome from './components/BgHome';
 import NavBar from './components/NavBar';
 import Products from './components/Products';
 import AboutUs from './components/AboutUs';
+import ContactUs from './components/ContactUs';
 
 
 function ScrollToTop() {
@@ -26,6 +27,7 @@ const AppRouter = () => {
                 <Route path='/' exact  element={ <BgHome /> }  ></Route>
                 <Route path='/products' element={<Products />} /> 
                 <Route path='aboutUs' element={ <AboutUs />} />
+                <Route path='contactUs' element={ <ContactUs />} />
                
             </Routes>
         </Router>

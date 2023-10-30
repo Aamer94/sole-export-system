@@ -7,6 +7,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './RequestForm.css'
 import emailjs from '@emailjs/browser';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faClose } from '@fortawesome/free-solid-svg-icons'
 export default function RequestForm({ toggleShowForm }) {
 
     const form = useRef();
@@ -46,10 +48,12 @@ export default function RequestForm({ toggleShowForm }) {
 
 
         <Container className='form-request'>
-            <Row>
+          
+            <Row className='form-request-row'>
+            <FontAwesomeIcon icon={faClose} onClick={toggleShowForm} className='colse-icon-form' />
                 <Col className='col-form' sm={6} md={12}>
 
-
+                
                     <form ref={form} onSubmit={sendEmail}>
                         <label>Name</label>
                         <input type="text" name="user_name" />

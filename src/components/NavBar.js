@@ -40,7 +40,7 @@ export default function NavBar() {
 
                         <Link to="/products">Products</Link>
                         <Link to="/aboutUs">About Us</Link>
-                        <Link to="/">Contact Us</Link>
+                        <Link to="/contactUs">Contact Us</Link>
 
                         
                         {/* <Nav.Link href="#link">Contact Us</Nav.Link> */}
