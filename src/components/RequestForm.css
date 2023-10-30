@@ -25,10 +25,11 @@
     flex-direction: column;
 
 }
+.col-form form input {border-radius: 5px;height: 40px;}
 
 .form-request .form-request-row {
     display: flex;
-    justify-content: end;
+   justify-content: flex-end;
 }
 
 .form-request .colse-icon-form {

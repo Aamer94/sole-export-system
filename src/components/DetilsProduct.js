@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import './DetilsProduct.css'
-import Products from './Products'
+
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 
-import pro8 from "../asets/pro8.jpg"
+
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 

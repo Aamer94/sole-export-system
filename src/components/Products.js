@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState} from 'react'
+
 import './Products.css'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -8,12 +9,12 @@ import Card from 'react-bootstrap/Card';
 
 import DetilsProduct from './DetilsProduct';
 import Data from './Data'
+import ScrollToTopButton from './ScrolToTop.js'
+// import { useTranslation } from 'react-i18next';
 
-import { useTranslation } from 'react-i18next';
-import AboutUs from './AboutUs';
 
 export default function Products() {
-    const { t } = useTranslation();
+    // const { t } = useTranslation();
     const [selectedProduct, setSelectedProduct] = useState(null);
     const [showDetils, setShowDetils] = useState(false);
     const toggleShowDetils = () => {
@@ -99,7 +100,7 @@ export default function Products() {
                 </Col> */}
 
             </Row>
-         
+       <ScrollToTopButton />
         </Container>
 
     )
