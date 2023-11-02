@@ -63,7 +63,7 @@ overflow-y: scroll;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 .detils-product .detils-content p {
-color: rgba(0, 0, 0, 0.2);
+color: #495057;
 }
 .detils-content .colse-icon {
     float: right;
@@ -73,6 +73,7 @@ color: rgba(0, 0, 0, 0.2);
     border-radius: 50%;
     position: absolute;
     right: 10%;
+    z-index: 20;
 }
 .btn{
     background-color: #fb8500 !important;

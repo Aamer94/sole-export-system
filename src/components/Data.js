@@ -57,7 +57,45 @@ import walnuts from './images/walnuts.png'
 import hazilnuts from './images/hazilnuts.png'
 
 
-
+// {
+//     "Fruits": [
+//       {
+//         id: 2,
+//         name: 'Strawberry',
+//         details: 'we offer different kinds of fruits such as fresh, frozen, and dried ones.',
+//         image: 'strawberry.jpg',
+//       },
+//       {
+//         id: 3,
+//         name: 'Orange',
+//         details: 'we offer different kinds of fruits such as fresh, frozen, and dried ones.',
+//         image: 'orange.jpg',
+//       },
+//       {
+//         id: 4,
+//         name: 'Guava',
+//         details: 'we offer different kinds of fruits such as fresh, frozen, and dried ones.',
+//         image: 'guava.jpg',
+//       }
+//       // Add more fruits as needed
+//     ],
+//     "Oil": [
+//       {
+//         id: 5,
+//         name: 'Olive Oil',
+//         details: 'we offer different types of oils, including olive oil.',
+//         image: 'olive-oil.jpg',
+//       },
+//       {
+//         id: 6,
+//         name: 'Soybean Oil',
+//         details: 'we offer different types of oils, including soybean oil.',
+//         image: 'soybean-oil.jpg',
+//       }
+//       // Add more oil products as needed
+//     ]
+//   }
+  
 
 const data = [
 
