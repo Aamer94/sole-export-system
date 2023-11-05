@@ -1,4 +1,4 @@
-import React, { useState} from 'react'
+import React, { useState } from 'react'
 
 import './Products.css'
 import Container from 'react-bootstrap/Container';
@@ -55,11 +55,41 @@ export default function Products() {
 
         // </div>
         <Container className='text-center continer-products'>
+          
+            <Row className='row-ul'>
+            <h1>Our Products</h1>
 
-            <h1>Products</h1>
+            <p className='our-products-p'>Here is the list of our various Products.</p>
+            <Col  sm={6}>
+            <ul>
+                <li>Urea fertilizer</li>
+                <li>Phosphate</li>
+                <li>Coal and firewood</li>
+                <li>Livestock feed</li>
+                <li>Medjool dates</li>
+                <li>Sagebrush</li>
+                <li>Soya Products</li>
+                <li>Nuts</li>
+                <li>Legumes</li>
+                <li>Spices</li>
+                <li>Sesames</li>
+                <li>Fresh fruits</li>
+                <li>Dries fruits</li>
+                <li>Fresh vegetables</li>
+                <li>Dried vegetables</li>
+                <li>Frozen fruits and vegetables</li>
+                <li>Fruit juice packing</li>
+                <li>Oil and fats</li>
+                <li>A varity of honey</li>
+            </ul>
+            </Col>
+            </Row>
+          
+
+          
             {showDetils && <DetilsProduct data={selectedProduct} toggleShowDetils={toggleShowDetils} />}
-            <Row>
-
+            <Row className='row-products'>
+            <h1>Products</h1>
                 {Data.map((item) => (
 
                     <Col sm={6} key={item.id} className='col-product'>
@@ -80,10 +110,10 @@ export default function Products() {
                         </Card>
 
                     </Col>
-                    
-                    
 
-                    ))}
+
+
+                ))}
 
                 {/* <Col sm={6} className='col-product'>
                     <Card className='card' >
@@ -100,7 +130,7 @@ export default function Products() {
                 </Col> */}
 
             </Row>
-       <ScrollToTopButton />
+            <ScrollToTopButton />
         </Container>
 
     )
