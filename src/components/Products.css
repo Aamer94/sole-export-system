@@ -4,19 +4,29 @@
     font-family: sans-serif;
     background-color: #7d1538;
 }
+
 .continer-products .our-products-p {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: orange;
+
+}
+.continer-products .our-products-p1 {
     font-size: 1.5rem;
     font-family: sans-serif;
     font-weight: 400;
     color: #fff;
 
 }
-.continer-products .row-ul{
+
+.continer-products .row-ul {
     display: flex;
     justify-content: center;
 
 }
-.continer-products   ul {
+
+.continer-products ul {
 
     list-style: none;
     list-style-position: inside;
@@ -24,14 +34,14 @@
 
 }
 
-.continer-products  ul li {
+.continer-products ul li {
     font-size: 16px;
     margin-bottom: 10px;
     background-color: #71a5ef;
     padding: 15px;
     border-radius: 5px;
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .continer-products ul li::before {
@@ -39,9 +49,11 @@ justify-content: center;
     color: #2196F3;
     margin-right: 10px;
 }
-.continer-products .row-products{
+
+.continer-products .row-products {
     background-color: #7d1538;
 }
+
 .col-product {
     display: flex;
     justify-content: center;
@@ -58,14 +70,17 @@ justify-content: center;
     overflow: hidden;
     animation: slide-in 1s ease-in-out;
 }
+
 @keyframes slide-in {
     from {
-      transform: translateX(-100%);
+        transform: translateX(-100%);
     }
+
     to {
-      transform: translateX(0);
+        transform: translateX(0);
     }
-  }
+}
+
 .card-body {
     position: absolute;
     top: 30%;
@@ -77,9 +92,10 @@ justify-content: center;
     color: #fff;
     border-radius: 5px;
 }
+
 .card:hover .card-body {
     background-color: rgba(0, 0, 0, 0.5);
-    
+
 }
 
 .card img {
@@ -93,9 +109,13 @@ justify-content: center;
 
 
 }
-h1{color: rgba(0, 0, 0, 0.5);
-padding: 10px;
+
+h1 {
+    color: #fff;
+    padding: 10px;
+    font-weight: 600;
 }
+
 .card .overlay {
     width: 100%;
     height: 100%;
@@ -108,4 +128,3 @@ padding: 10px;
     height: 120%;
 
 }
-

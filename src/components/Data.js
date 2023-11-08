@@ -1,5 +1,5 @@
 
-import fos from './images/fos.png'
+
 import fertilizers from './images/fertilizers.png'
 import fruits from './images/str444.png'
 import frozenfruits from './images/fruits.jpeg'
@@ -9,8 +9,7 @@ import dateB from './images/date b.png'
 import mixveg from './images/mixveg.png'
 import mixvegetables from './images/veg.png'
 import okra from './images/okra 33.png'
-import onion from './images/onion.png'
-import garlic from './images/garlic.png'
+
 import beans from './images/greenbeans.png'
 import Grape from './images/spanich.png'
 import sagebrush from './images/sagebrush.png'
@@ -21,14 +20,13 @@ import cornoil from './images/co3.png'
 import blackhoney from './images/hon4.png'
 import cloverhoney from './images/hon2.png'
 import citrushoney from './images/honey.png'
-import coal from './images/c4.png'
-import firwood from './images/firewood.png'
-import orange from './images/orange.png'
-import guava from './images/guava.png'
+
+
+
+
 import Pomogranate from './images/pom8.png'
-import pineapple from './images/pineapple1.png'
-import mango from './images/mango.png'
-import kiwi from './images/kiwi 5.png'
+
+
 import frozenguava from './images/c.png'
 import frozenkiwi from './images/kiwi.png'
 import frozenmango from './images/ma.png'
@@ -40,8 +38,8 @@ import driedmango from './images/dried apricot.png'
 import driedpineapple from './images/dried tan.png'
 import driedberries from './images/driedberries.png'
 import driedpapaya from './images/driedpapaya.png'
-import potato from './images/potato.png'
-import sweetpotato from './images/sweetpotato.png'
+
+
 import frozenokra from './images/okra3.png'
 import frozenbrocli from './images/frozenbrocli.png'
 import frozenkolkasia from './images/t44.png'
@@ -57,90 +55,125 @@ import walnuts from './images/walnuts.png'
 import hazilnuts from './images/hazilnuts.png'
 
 
-// {
-//     "Fruits": [
-//       {
-//         id: 2,
-//         name: 'Strawberry',
-//         details: 'we offer different kinds of fruits such as fresh, frozen, and dried ones.',
-//         image: 'strawberry.jpg',
-//       },
-//       {
-//         id: 3,
-//         name: 'Orange',
-//         details: 'we offer different kinds of fruits such as fresh, frozen, and dried ones.',
-//         image: 'orange.jpg',
-//       },
-//       {
-//         id: 4,
-//         name: 'Guava',
-//         details: 'we offer different kinds of fruits such as fresh, frozen, and dried ones.',
-//         image: 'guava.jpg',
-//       }
-//       // Add more fruits as needed
-//     ],
-//     "Oil": [
-//       {
-//         id: 5,
-//         name: 'Olive Oil',
-//         details: 'we offer different types of oils, including olive oil.',
-//         image: 'olive-oil.jpg',
-//       },
-//       {
-//         id: 6,
-//         name: 'Soybean Oil',
-//         details: 'we offer different types of oils, including soybean oil.',
-//         image: 'soybean-oil.jpg',
-//       }
-//       // Add more oil products as needed
-//     ]
-//   }
-  
+
+import phosphate from './images/fos.png'
+import prilledurea from './images/han.png'
+import granularurea from './images/gr2.png'
+import firewood from './images/wood (1).jpg'
+import coal from './images/c44.png'
+import potato from './images/potato.png'
+import sweetpotato from './images/sweetpotato.jpeg'
+import onion from './images/onion.png'
+import garlic from './images/garlic.png'
+import mango from './images/mango.jpeg'
+import orange from './images/orange.jpeg'
+import strawbery from './images/str444.png'
+import kiwi from './images/kiwi 5.png'
+import pineapple from './images/pineapple.jpeg'
+import guava from './images/guava.jpeg'
 
 const data = [
 
     {
+        id: 1,
+    
+        name: 'Phosphate',
+        detils: 'we make your crops healthy.',
+        image: phosphate,
+    },
+    {
         id: 2,
-        name: 'Strawberry',
-        detils: 'we offer diffrent kind of fruits such as fresh , frozen and dried ones.',
-        image: fruits,
+      
+        name: 'Prilled urea',
+        detils: 'we make your crops healthy.',
+        image: prilledurea,
     },
     {
         id: 3,
-        name: 'orange',
-        detils: '  we offer diffrent kind of fruits such as fresh , frozen and dried ones.',
-        image: orange,
+        name: 'Granular urea',
+        detils: 'we make your crops healthy.',
+        image: granularurea,
     },
     {
         id: 4,
-        name: 'Guava',
-        detils: 'we offer diffrent kind of fruits such as fresh , frozen and dried ones.',
-        image: guava,
+        name: 'Fire wood',
+        detils: 'Recharge your power with our energy sources! get energized now.',
+        image: firewood,
     },
     {
         id: 5,
-        name: 'Pomegranate',
-        detils: 'we offer diffrent kind of fruits such as fresh , frozen and dried ones.',
-        image: Pomogranate,
+        name: 'Coal',
+        detils: 'keen to provide a high-quality coal and reasonable prices.',
+        image: coal,
     },
     {
         id: 6,
-        name: 'Pineapple',
-        detils: 'we offer diffrent kind of fruits such as fresh , frozen and dried ones.',
-        image: pineapple,
+        name: 'Onion',
+        detils: 'we offer diffrent kind of vegetables fresh from tha farm to your plate.',
+        image: onion,
     },
     {
         id: 7,
-        name: 'Mango',
-        detils: 'we offer diffrent kind of fruits such as fresh , frozen and dried ones.',
-        image: mango,
+        name: 'Garlic',
+        detils: 'we offer diffrent kind of vegetables fresh from tha farm to your plate.',
+        image: garlic,
     },
     {
         id: 8,
+        name: 'Potato',
+        detils: 'we offer diffrent kind of vegetables fresh from tha farm to your plate.',
+        image: potato,
+    },
+    {
+        id: 9,
+        name: 'Sweet potato',
+        detils: 'we offer diffrent kind of vegetables fresh from tha farm to your plate.',
+        image: sweetpotato,
+    },
+    {
+        id: 10,
+        name: 'Mango',
+        detils: 'we offer different kind of fruits fresh .',
+        image: mango,
+    },
+    {
+        id: 11,
         name: 'kiwi',
-        detils: 'we offer diffrent kind of fruits such as fresh , frozen and dried ones.',
+        detils: 'we offer different kind of fruits fresh .',
         image: kiwi,
     },
+    {
+        id: 12,
+        name: 'Orange',
+        detils: 'we offer different kind of fruits fresh .',
+        image: orange,
+    },
+    {
+        id: 13,
+        name: 'Pineapple',
+        detils: 'we offer different kind of fruits fresh .',
+        image: pineapple,
+    },
+    {
+        id: 14,
+        name: 'strawberry',
+        detils: 'we offer different kind of fruits fresh .',
+        image: strawbery,
+    },
+    {
+        id: 15,
+        name: 'Guava',
+        detils: 'we offer different kind of fruits fresh .',
+        image: guava,
+    },
+    {
+        id: 16,
+        name: 'pomegranate',
+        detils: 'we offer different kind of fruits fresh .',
+        image: Pomogranate,
+    },
+
+
     {
         id: 9,
         name: 'Frozen Strawbery',
@@ -243,18 +276,8 @@ const data = [
         detils: 'we offer diffrent kind of Fresh Vegetables from Farm To your plate.',
         image: sweetpotato,
     },
-    {
-        id: 26,
-        name: 'Onion',
-        detils: 'we offer diffrent kind of Fresh Vegetables from Farm To your plate.',
-        image: onion,
-    },
-    {
-        id: 27,
-        name: 'Garlic',
-        detils: 'we offer diffrent kind of Fresh Vegetables from Farm To your plate.',
-        image: garlic,
-    },
+
+
     {
         id: 28,
         name: 'Okra Zero',
@@ -423,16 +446,11 @@ const data = [
         id: 55,
         name: 'Firewood',
         detils: '  is very keen to provide a high-quality coal and firewood products as a main source ofenergy and warmth at reasonable prices.',
-        image: firwood,
+        image: firewood,
     },
+
     {
         id: 56,
-        name: 'Fos',
-        detils: 'This makeup product is a versatile and long-lasting foundationthat provides a smooth and flawless complexion',
-        image: fos,
-    },
-    {
-        id: 57,
         name: 'fertilizers',
         detils: 'This makeup product is a versatile and long-lasting foundationthat provides a smooth and flawless complexion',
         image: fertilizers,
@@ -442,7 +460,7 @@ const data = [
     // Add more items as needed
 ];
 
-
+export default data;
 // const imageContext = require.context('./images', false, /\.(png|jpe?g|svg)$/)
 
 // function importAll(r) {
@@ -484,4 +502,48 @@ const data = [
 // });
 // console.log(data)
 
-export default data;
+
+
+
+
+// const newdata=
+// {
+//     "Fruits": [
+//       {
+//         id: 2,
+//         name: 'Strawberry',
+//         details: 'we offer different kinds of fruits such as fresh, frozen, and dried ones.',
+//         image: 'strawberry.jpg',
+//       },
+//       {
+//         id: 3,
+//         name: 'Orange',
+//         details: 'we offer different kinds of fruits such as fresh, frozen, and dried ones.',
+//         image: 'orange.jpg',
+//       },
+//       {
+//         id: 4,
+//         name: 'Guava',
+//         details: 'we offer different kinds of fruits such as fresh, frozen, and dried ones.',
+//         image: 'guava.jpg',
+//       }
+//       // Add more fruits as needed
+//     ],
+//     "Oil": [
+//       {
+//         id: 5,
+//         name: 'Olive Oil',
+//         details: 'we offer different types of oils, including olive oil.',
+//         image: 'olive-oil.jpg',
+//       },
+//       {
+//         id: 6,
+//         name: 'Soybean Oil',
+//         details: 'we offer different types of oils, including soybean oil.',
+//         image: 'soybean-oil.jpg',
+//       }
+//       // Add more oil products as needed
+//     ]
+//   }
+
+

@@ -59,7 +59,7 @@ export default function RequestForm({ toggleShowForm }) {
         <Container className='form-request'>
 <Row className='form-request-row'>
 <FontAwesomeIcon icon={faClose} onClick={toggleShowForm} className='colse-icon-form' />
-<Col className='col-form' sm={6} md={12}>
+<Col className='col-form'  md={12}>
         <form ref={form} onSubmit={formik.handleSubmit}>
           <label>Name</label>
           <input
@@ -67,6 +67,7 @@ export default function RequestForm({ toggleShowForm }) {
             name="user_name"
             value={formik.values.user_name}
             onChange={formik.handleChange}
+            placeholder='add your full name'
           />
           {formik.errors.user_name && formik.touched.user_name && (
             <div className="alert alert-danger error">{formik.errors.user_name}</div>
@@ -78,6 +79,7 @@ export default function RequestForm({ toggleShowForm }) {
             name="user_mobile"
             value={formik.values.user_mobile}
             onChange={formik.handleChange}
+            placeholder='add your mobile'
           />
           {formik.errors.user_mobile && formik.touched.user_mobile && (
             <div className="error alert alert-danger">{formik.errors.user_mobile}</div>
@@ -89,6 +91,7 @@ export default function RequestForm({ toggleShowForm }) {
             name="user_email"
             value={formik.values.user_email}
             onChange={formik.handleChange}
+            placeholder='add your email '
           />
           {formik.errors.user_email && formik.touched.user_email && (
             <div className="error alert alert-danger">{formik.errors.user_email}</div>
@@ -100,6 +103,7 @@ export default function RequestForm({ toggleShowForm }) {
             name="product_name"
             value={formik.values.product_name}
             onChange={formik.handleChange}
+            placeholder='add name product '
           />
           {formik.errors.product_name && formik.touched.product_name && (
             <div className="error alert alert-danger">{formik.errors.product_name}</div>
@@ -111,6 +115,7 @@ export default function RequestForm({ toggleShowForm }) {
             name="product_quantity"
             value={formik.values.product_quantity}
             onChange={formik.handleChange}
+            placeholder='add Quantity product '
           />
           {formik.errors.product_quantity && formik.touched.product_quantity && (
             <div className="error alert alert-danger">{formik.errors.product_quantity}</div>
@@ -122,6 +127,7 @@ export default function RequestForm({ toggleShowForm }) {
             name="portaccess"
             value={formik.values.portaccess}
             onChange={formik.handleChange}
+            placeholder='add port access'
           />
     
           <label>Note</label>
@@ -129,6 +135,7 @@ export default function RequestForm({ toggleShowForm }) {
             name="message"
             value={formik.values.message}
             onChange={formik.handleChange}
+            placeholder='add any thing you need to say'
           />
     
           <button type="submit" className="btn">
