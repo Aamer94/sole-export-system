@@ -175,43 +175,130 @@ const data = [
 
 
     {
-        id: 9,
+        id: 17,
         name: 'Frozen Strawbery',
         detils: 'we offer diffrent kind of frozen fruits and dried ones.',
         image: frozenfruits,
     },
     {
-        id: 10,
+        id: 18,
         name: 'Frozen Pomogranate',
         detils: 'we offer diffrent kind of frozen fruits and dried ones.',
         image: frozenpom,
     },
     {
-        id: 11,
+        id: 19,
         name: 'Frozen guava',
         detils: 'we offer diffrent kind of frozen fruits and dried ones.',
         image: frozenguava,
     },
     {
-        id: 12,
+        id: 20,
         name: 'Frozen kiwi',
         detils: 'we offer diffrent kind of frozen fruits and dried ones.',
         image: frozenkiwi,
     },
     {
-        id: 13,
+        id: 21,
         name: 'Frozen mango',
         detils: 'we offer diffrent kind of frozen fruits and dried ones.',
         image: frozenmango,
     },
     {
-        id: 14,
+        id: 22,
         name: 'Frozen pineapple',
         detils: 'we offer diffrent kind of frozen fruits and dried ones.',
         image: frozenpineapple,
     },
     {
-        id: 15,
+        id: 23,
+        name: 'Okra Zero',
+        detils: 'we offer diffrent kind of Fresh Vegetables from Farm To your plate.',
+        image: okra,
+    },
+    {
+        id: 24,
+        name: 'Frozen Okra extra',
+        detils: 'we offer diffrent kind of Fresh Vegetables from Farm To your plate.',
+        image: frozenokra,
+    },
+    {
+        id: 25,
+        name: 'Frozen Broccli',
+        detils: 'we offer diffrent kind of Fresh Vegetables from Farm To your plate.',
+        image: frozenbrocli,
+    },
+    {
+        id: 26,
+        name: 'Mix Vegetables',
+        detils: 'we offer diffrent kind of Fresh Vegetables from Farm To your plate.',
+        image: mixveg,
+    },
+    {
+        id: 27,
+        name: 'Frozen kolkasia',
+        detils: 'we offer diffrent kind of Fresh Vegetables from Farm To your plate.',
+        image: frozenkolkasia,
+    },
+
+
+    {
+        id: 28,
+        name: 'Green Peas & Carrot',
+        detils: 'we offer diffrent kind of Fresh Vegetables from Farm To your plate.',
+        image: mixvegetables,
+    },
+    {
+        id: 29,
+        name: 'Frozen Green Beans',
+        detils: 'we offer diffrent kind of Fresh Vegetables from Farm To your plate.',
+        image: beans,
+    },
+    {
+        id: 33,
+        name: 'Frozen Grape Leaves',
+        detils: 'we offer diffrent kind of Frozen Vegetables from Farm To your plate.',
+        image: Grape,
+    },
+    {
+        id: 31,
+        name: 'Frozen spinach',
+        detils: 'we offer diffrent kind of Frozen Vegetables from Farm To your plate.',
+        image: spinach,
+    },
+    {
+        id: 32,
+        name: 'Frozen artichokes bottom',
+        detils: 'we offer diffrent kind of Frozen Vegetables from Farm To your plate.',
+        image: artichokes,
+    },
+    {
+        id: 33,
+        name: 'Frozen artichokes pieses',
+        detils: 'we offer diffrent kind of Frozen Vegetables from Farm To your plate.',
+        image: artichokespieses,
+    },
+    {
+        id: 34,
+        name: 'Frozen flafel',
+        detils: 'we offer diffrent kind of Frozen Vegetables from Farm To your plate.',
+        image: falafel,
+    },
+    {
+        id: 35,
+        name: 'Frozen Cauliflower',
+        detils: 'we offer diffrent kind of Frozen Vegetables from Farm To your plate.',
+        image: cauliflower,
+    },
+    {
+        id: 36,
+        name: 'half-fried frozen french fries ',
+        detils: 'we offer diffrent kind of Frozen Vegetables from Farm To your plate.',
+        image: french,
+    },
+    
+    {
+        id: 37,
         name: 'Medjool Dates Grade A',
         detils: 'we offer diffrent kind of Medjool Dates.',
         image: dateA,
@@ -278,92 +365,7 @@ const data = [
     },
 
 
-    {
-        id: 28,
-        name: 'Okra Zero',
-        detils: 'we offer diffrent kind of Fresh Vegetables from Farm To your plate.',
-        image: okra,
-    },
-    {
-        id: 29,
-        name: 'Frozen Okra extra',
-        detils: 'we offer diffrent kind of Fresh Vegetables from Farm To your plate.',
-        image: frozenokra,
-    },
-    {
-        id: 30,
-        name: 'Frozen Broccli',
-        detils: 'we offer diffrent kind of Fresh Vegetables from Farm To your plate.',
-        image: frozenbrocli,
-    },
-    {
-        id: 31,
-        name: 'Mix Vegetables',
-        detils: 'we offer diffrent kind of Fresh Vegetables from Farm To your plate.',
-        image: mixveg,
-    },
-    {
-        id: 32,
-        name: 'Frozen kolkasia',
-        detils: 'we offer diffrent kind of Fresh Vegetables from Farm To your plate.',
-        image: frozenkolkasia,
-    },
-
-
-    {
-        id: 33,
-        name: 'Green Peas & Carrot',
-        detils: 'we offer diffrent kind of Fresh Vegetables from Farm To your plate.',
-        image: mixvegetables,
-    },
-    {
-        id: 34,
-        name: 'Frozen Green Beans',
-        detils: 'we offer diffrent kind of Fresh Vegetables from Farm To your plate.',
-        image: beans,
-    },
-    {
-        id: 35,
-        name: 'Frozen Grape Leaves',
-        detils: 'we offer diffrent kind of Frozen Vegetables from Farm To your plate.',
-        image: Grape,
-    },
-    {
-        id: 36,
-        name: 'Frozen spinach',
-        detils: 'we offer diffrent kind of Frozen Vegetables from Farm To your plate.',
-        image: spinach,
-    },
-    {
-        id: 37,
-        name: 'Frozen artichokes bottom',
-        detils: 'we offer diffrent kind of Frozen Vegetables from Farm To your plate.',
-        image: artichokes,
-    },
-    {
-        id: 38,
-        name: 'Frozen artichokes pieses',
-        detils: 'we offer diffrent kind of Frozen Vegetables from Farm To your plate.',
-        image: artichokespieses,
-    },
-    {
-        id: 39,
-        name: 'Frozen flafel',
-        detils: 'we offer diffrent kind of Frozen Vegetables from Farm To your plate.',
-        image: falafel,
-    },
-    {
-        id: 40,
-        name: 'Frozen Cauliflower',
-        detils: 'we offer diffrent kind of Frozen Vegetables from Farm To your plate.',
-        image: cauliflower,
-    },
-    {
-        id: 41,
-        name: 'half-fried frozen french fries ',
-        detils: 'we offer diffrent kind of Frozen Vegetables from Farm To your plate.',
-        image: french,
-    },
+   
     {
         id: 42,
         name: 'Cashews',
