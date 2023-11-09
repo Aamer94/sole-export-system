@@ -71,19 +71,23 @@ import strawbery from './images/str444.png'
 import kiwi from './images/kiwi 5.png'
 import pineapple from './images/pineapple.jpeg'
 import guava from './images/guava.jpeg'
+import cattle from './images/eatingcattle.png'
+import Alfalfa from './images/ha2.png'
+import livestock from './images/feed3.png'
+
 
 const data = [
 
     {
         id: 1,
-    
+
         name: 'Phosphate',
         detils: 'we make your crops healthy.',
         image: phosphate,
     },
     {
         id: 2,
-      
+
         name: 'Prilled urea',
         detils: 'we make your crops healthy.',
         image: prilledurea,
@@ -98,18 +102,21 @@ const data = [
         id: 4,
         name: 'Fire wood',
         detils: 'Recharge your power with our energy sources! get energized now.',
+        moreDetils: 'We are passionate to be a source of warmth in some countries, Il Sole Group is very keen to provide a high-quality coal and firewood products as a main source of energy and warmth at reasonable prices. ',
         image: firewood,
     },
     {
         id: 5,
         name: 'Coal',
         detils: 'keen to provide a high-quality coal and reasonable prices.',
+        moreDetils: 'We are passionate to be a source of warmth in some countries, Il Sole Group is very keen to provide a high-quality coal and firewood products as a main source of energy and warmth at reasonable prices. ',
         image: coal,
     },
     {
         id: 6,
         name: 'Onion',
         detils: 'we offer diffrent kind of vegetables fresh from tha farm to your plate.',
+
         image: onion,
     },
     {
@@ -255,7 +262,7 @@ const data = [
         image: beans,
     },
     {
-        id: 33,
+        id: 30,
         name: 'Frozen Grape Leaves',
         detils: 'we offer diffrent kind of Frozen Vegetables from Farm To your plate.',
         image: Grape,
@@ -296,168 +303,170 @@ const data = [
         detils: 'we offer diffrent kind of Frozen Vegetables from Farm To your plate.',
         image: french,
     },
-    
+
     {
         id: 37,
-        name: 'Medjool Dates Grade A',
-        detils: 'we offer diffrent kind of Medjool Dates.',
-        image: dateA,
+        name: 'Black honey seed',
+        detils: 'we offer diferent kind of honey.',
+        image: blackhoney,
     },
     {
-        id: 16,
-        name: 'Medjool Dates Grade B',
-        detils: 'we offer diffrent kind of Medjool Dates.',
-        image: dateB,
+        id: 38,
+        name: 'Clover honey ',
+        detils: 'we offer diferent kind of honey.',
+        image: cloverhoney,
     },
     {
-        id: 17,
-        name: 'Dried figs',
-        detils: 'we offer diffrent kind of Medjool Dates.',
-        image: driedfigs,
-    },
-    {
-        id: 18,
-        name: 'Dried apricots',
-        detils: 'we offer diffrent kind of Medjool Dates.',
-        image: driedapricot,
-    },
-    {
-        id: 19,
-        name: 'Dried banana',
-        detils: 'we offer diffrent kind of Medjool Dates.',
-        image: driedbanana,
-    },
-    {
-        id: 20,
-        name: 'Dried mango',
-        detils: 'we offer diffrent kind of Medjool Dates.',
-        image: driedmango,
-    },
-    {
-        id: 21,
-        name: 'Dried pineapple',
-        detils: 'we offer diffrent kind of Medjool Dates.',
-        image: driedpineapple,
-    },
-    {
-        id: 22,
-        name: 'Dried berries',
-        detils: 'we offer diffrent kind of Medjool Dates.',
-        image: driedberries,
-    },
-    {
-        id: 23,
-        name: 'Dried papaya',
-        detils: 'we offer diffrent kind of Medjool Dates.',
-        image: driedpapaya,
-    },
-    {
-        id: 24,
-        name: 'Potato',
-        detils: 'we offer diffrent kind of Fresh Vegetables from Farm To your plate.',
-        image: potato,
-    },
-    {
-        id: 25,
-        name: 'Sweet potato',
-        detils: 'we offer diffrent kind of Fresh Vegetables from Farm To your plate.',
-        image: sweetpotato,
+        id: 39,
+        name: 'Citrus honey ',
+        detils: 'we offer diferent kind of honey.',
+        image: citrushoney,
     },
 
 
-   
     {
-        id: 42,
-        name: 'Cashews',
-        detils: 'we offer diffrent kind of Frozen Vegetables from Farm To your plate.',
-        image: Cashews,
-    },
-    {
-        id: 43,
-        name: 'pistachios',
-        detils: 'we offer diffrent kind of Frozen Vegetables from Farm To your plate.',
-        image: pista,
-    },
-    {
-        id: 44,
-        name: 'Walnuts',
-        detils: 'we offer diffrent kind of Frozen Vegetables from Farm To your plate.',
-        image: walnuts,
-    },
-    {
-        id: 45,
-        name: 'hazilnuts',
-        detils: 'we offer diffrent kind of Frozen Vegetables from Farm To your plate.',
-        image: hazilnuts,
-    },
-    {
-        id: 46,
-        name: 'Sagebrush',
-        detils: 'we offer Sage that it is packed with a variety of important nutrients and compounds',
-        image: sagebrush,
-    },
-    {
-        id: 47,
+        id: 40,
         name: 'Soya Oil',
         detils: 'we offer Sage that it is packed with a variety of important nutrients and compounds',
         image: soya,
     },
     {
-        id: 48,
+        id: 41,
         name: 'Olive Oil',
         detils: 'we offer Sage that it is packed with a variety of important nutrients and compounds',
         image: olive,
     },
     {
-        id: 49,
+        id: 42,
         name: 'Sunflower Oil',
         detils: 'we offer Sage that it is packed with a variety of important nutrients and compounds',
         image: sunflower,
     },
     {
-        id: 50,
+        id: 43,
         name: 'Corn Oil',
         detils: 'we offer Sage that it is packed with a variety of important nutrients and compounds',
         image: cornoil,
     },
+
+    {
+        id: 44,
+        name: 'Cattle fodder',
+        detils: 'Feeding your cattle healthy is a key to high quality products.',
+        moreDetils: 'more',
+        image: cattle,
+    },
+    {
+        id: 45,
+        name: 'Alfalfa hay',
+        detils: 'Feeding your cattle healthy is a key to high quality products.',
+        moreDetils: 'As Feeding your livestock nutrient-rich feed boosts their heath and growth which leads to an optimal and healthy production, that everyone needs ,Il sole group offers a high quality of Alfalfa hay which considered a densely nutritious type of hay.it contains high levels of A, D, E, K, U, C, B1, B2, B6, and B12.It also contains ample amounts of Niacin, Folic acid, Biotin,Pantothenic acid, Inositol.Minerals- Alfalfa contains minerals such as copper,sodium, magnesium, iron, phosphorous, and more.Alfalfa also has a very high protein content. The protein content in alfalfa makes it a very appealing feed choice for many horse owners. As with all grasses, alfalfa also has a very high fiber content as well.',
+        image: Alfalfa,
+    },
+    {
+        id: 46,
+        name: 'Livestock feed',
+        detils: 'Feeding your cattle healthy is a key to high quality products.',
+        moreDetils: 'Our Feedstuff products extend to cover all livestock, So we empower Our customers to produce better foodstuff by enriching their livestock with high value feed that contains in turn all the necessary nutrients, fluids, minerals, and vitamin as the proper nutrition gives your animals the vigor to grow, develop, and reproduce, and strong immunity to fight off infections. All these advantages lead to more profitable and sustainable agriculture.',
+        image: livestock,
+    },
+
+
+
+    {
+        id: 47,
+        name: 'Medjool Dates Grade A',
+        detils: 'we offer diffrent kind of Medjool Dates.',
+        image: dateA,
+    },
+    {
+        id: 48,
+        name: 'Medjool Dates Grade B',
+        detils: 'we offer diffrent kind of Medjool Dates.',
+        image: dateB,
+    },
+    {
+        id: 49,
+        name: 'Dried figs',
+        detils: 'we offer diffrent kind of Medjool Dates.',
+        image: driedfigs,
+    },
+    {
+        id: 50,
+        name: 'Dried apricots',
+        detils: 'we offer diffrent kind of Medjool Dates.',
+        image: driedapricot,
+    },
     {
         id: 51,
-        name: 'Black honey seed',
-        detils: 'we offer Sage that it is packed with a variety of important nutrients and compounds',
-        image: blackhoney,
+        name: 'Dried banana',
+        detils: 'we offer diffrent kind of Medjool Dates.',
+        image: driedbanana,
     },
     {
         id: 52,
-        name: 'Clover honey ',
-        detils: 'we offer Sage that it is packed with a variety of important nutrients and compounds',
-        image: cloverhoney,
+        name: 'Dried mango',
+        detils: 'we offer diffrent kind of Medjool Dates.',
+        image: driedmango,
     },
     {
         id: 53,
-        name: 'Citrus honey ',
-        detils: 'we offer Sage that it is packed with a variety of important nutrients and compounds',
-        image: citrushoney,
+        name: 'Dried pineapple',
+        detils: 'we offer diffrent kind of Medjool Dates.',
+        image: driedpineapple,
     },
     {
         id: 54,
-        name: 'Coal ',
-        detils: '  is very keen to provide a high-quality coal and firewood products as a main source ofenergy and warmth at reasonable prices.',
-        image: coal,
+        name: 'Dried berries',
+        detils: 'we offer diffrent kind of Medjool Dates.',
+        image: driedberries,
     },
     {
         id: 55,
-        name: 'Firewood',
-        detils: '  is very keen to provide a high-quality coal and firewood products as a main source ofenergy and warmth at reasonable prices.',
-        image: firewood,
+        name: 'Dried papaya',
+        detils: 'we offer diffrent kind of Medjool Dates.',
+        image: driedpapaya,
     },
+
+
+
+  
+
+
 
     {
         id: 56,
-        name: 'fertilizers',
-        detils: 'This makeup product is a versatile and long-lasting foundationthat provides a smooth and flawless complexion',
-        image: fertilizers,
+        name: 'Cashews',
+        detils: 'we offer diffrent kind of Frozen Vegetables from Farm To your plate.',
+        image: Cashews,
+    },
+    {
+        id: 57,
+        name: 'pistachios',
+        detils: 'we offer diffrent kind of Frozen Vegetables from Farm To your plate.',
+        image: pista,
+    },
+    {
+        id: 58,
+        name: 'Walnuts',
+        detils: 'we offer diffrent kind of Frozen Vegetables from Farm To your plate.',
+        image: walnuts,
+    },
+    {
+        id: 59,
+        name: 'hazilnuts',
+        detils: 'we offer diffrent kind of Frozen Vegetables from Farm To your plate.',
+        image: hazilnuts,
     },
 
+    {
+        id: 60  ,
+        name: 'Sagebrush',
+        detils: 'we offer Sage that it is packed with a variety of important nutrients and compounds',
+        image: sagebrush,
+    },
+
+   
 
     // Add more items as needed
 ];

@@ -42,6 +42,8 @@ export default function DetilsProduct({ toggleShowDetils, data }) {
                                     <h2>{data.name} </h2>
                                     <p>
                                         {data.detils}
+                                        <br />
+                                        {data.moreDetils}
                                     </p>
                                     <Button onClick={toggleShowForm}>Requst</Button>
                                 </div>

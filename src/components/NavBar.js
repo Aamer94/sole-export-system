@@ -39,6 +39,7 @@ export default function NavBar() {
 
 
                         <Link to="/products">Products</Link>
+                        <Link to="/clinker">Clinker&Cements&Metal</Link>
                         <Link to="/aboutUs">About Us</Link>
                         <Link to="/contactUs">Contact Us</Link>
 

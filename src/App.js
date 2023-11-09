@@ -9,17 +9,20 @@ import AppRouter from './Router';
 
 function App() {
   return (
-    
+
     <div>
-            <Helmet>
+      <Helmet>
         <title>Ilsole Export</title>
         <meta name="description" content="Page description" />
         <meta name="keywords" content="
         مصر,egypt,تصدير من مصر ,export from egypt,
+        استيراد من مصر ,import from egypt
         تصدير من مصر الى أي مكان,export from egypt to anywhay,
         مصر,تصدير,استيراد,export,import,
-        Fos,fos export,
-        Fruits,Fruits export
+        phosphat,export phosphate ,
+        ,استيراد ليمون من مصر,تصدير ليمون من مصر 
+        ,export lemon from egypt,import lemon from egypt
+        Fruits,export Fruits 
         ,Frozen Strawbery,Frozen Strawbery export
         ,Frozen Pomogranate,Frozen Pomogranate export,
         سماد,تصدير سماد,تصدير فواكه, تصدير فراولة مجمده
@@ -36,11 +39,11 @@ function App() {
          dried fruits, export dried fruits 
 
         " />
-     
+
       </Helmet>
       <AppRouter />
-     
-     
+
+
       {/* <NavBar />
       <BgHome />
       <Products />

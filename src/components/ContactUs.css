@@ -2,8 +2,8 @@
  
     width: 100%;
     padding-top: 65px;
-    background-color: #d9d9d9;
-    color: #353535;
+    background-color: #353535;
+    color: #fff;
    
 }
 .contact-us .contact-row{
@@ -13,6 +13,7 @@
     font-size: 40px;
     font-family: sans-serif;
     font-weight: 600;
+    color: #71a5ef;
 }
 .contact-us p{
     height: 100%;

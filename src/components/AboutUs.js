@@ -10,7 +10,7 @@ export default function AboutUs() {
                 <span>Introduction</span>
                 <Row className='text-center row-about'>
 
-                    <Col sm={12} md={12}>
+                    <Col className='col-about' sm={12} md={12}>
 
                         <p>It's been well-known that behind each name an inspirational story or a beneficial message
                             Il Sole means the" Sun" in Italian language, When we just hear the "sun" word .the most two
@@ -28,7 +28,7 @@ export default function AboutUs() {
                 <span>Expand Your Horizons</span>
                 <Row className='text-center row-about'>
 
-                    <Col sm={12} md={12}>
+                    <Col className='col-about' sm={12} md={12}>
 
                         <p>Our customers are our top priority and through our products we
                             work hard towards building long-lasting, stable business
@@ -43,7 +43,7 @@ export default function AboutUs() {
                 <span>About Us</span>
                 <Row className='text-center row-about'>
 
-                    <Col sm={12} md={12}>
+                    <Col className='col-about' sm={12} md={12}>
 
                         <p>Il Sole Export is an Egyptian company owned and operated by
                             "Mrs.Marwa Salah"
@@ -63,7 +63,7 @@ export default function AboutUs() {
                 <span>Our missions</span>
                 <Row className='text-center row-about'>
 
-                    <Col sm={12} md={12}>
+                    <Col className='col-about' sm={12} md={12}>
 
                         <p>•As we prioritize our customer needs, our mission is to enrich and delight the world by
                             providing the highest quality standards of a variety of food products with an
@@ -82,7 +82,7 @@ export default function AboutUs() {
                 <span>Our vision</span>
                 <Row className='text-center row-about'>
 
-                    <Col sm={12} md={12}>
+                    <Col className='col-about' sm={12} md={12}>
 
                         <p>• To be a trusted, global leader in export services with superior quality
                             products to exceed our customers' expectations"
@@ -97,7 +97,7 @@ export default function AboutUs() {
                 <span>Our core values</span>
                 <Row className='text-center row-about'>
 
-                    <Col sm={12} md={12}>
+                    <Col className='col-about' sm={12} md={12}>
 
                         <p>INNOVATION:
                             - We consistently expand our way of thinking through innovation & entrepreneurship. By having foresight
@@ -121,7 +121,7 @@ export default function AboutUs() {
                 <span>Our philosophy</span>
                 <Row className='text-center row-about'>
 
-                    <Col sm={12} md={12}>
+                    <Col className='col-about' sm={12} md={12}>
 
                         <p>"Serving to share values, not chasing.profit"
                             • We are not just exporting products to earn money as much as we're exporting the value

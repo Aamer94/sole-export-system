@@ -2,22 +2,36 @@
   
     width: 100%;
     padding-top: 65px;
-    background-color: #d9d9d9;
+    padding-bottom: 65px;
+    background-color: #7d1538;
     color: #353535;
+ 
 }
 .about-us .container-about{
     height: 100%;
+background-color: #353535;
+color: #fff;
 
+border-radius: 25px;
+margin-bottom: 10px;
 }
 .about-us .row-about{
 
     height: 100%;
     box-shadow: 0 0px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 .about-us .container-about span{
     font-size: 40px;
     font-family: sans-serif;
     font-weight: 600;
+    padding: 10px;
+    color: #71a5ef;
+ 
 }
  .about-us .row-about p{
     height: 100%;
@@ -27,3 +41,10 @@
     font-weight: 200;
  
  }
+ .about-us .row-about .col-about{
+    width: 90%;
+  border: #71a5ef 1px solid;
+    border-radius: 30px;
+
+ }
+

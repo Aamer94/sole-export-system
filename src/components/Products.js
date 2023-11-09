@@ -89,7 +89,7 @@ export default function Products() {
 
             {showDetils && <DetilsProduct data={selectedProduct} toggleShowDetils={toggleShowDetils} />}
 
-    
+
 
             <Row className='row-products'>
                 <h1>Products</h1>
