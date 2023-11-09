@@ -42,7 +42,7 @@ export default function RequestForm({ toggleShowForm }) {
         validationSchema: validationSchema,
         onSubmit: (values) => {
           emailjs
-            .sendForm('service_9j6nwzg', 'template_ou3r5a1', form.current, 'ZbnhQ8nXtahuA0G8n')
+            .sendForm('service_pl3b087', 'template_7ldgbqc', form.current, 'ZOorhpNSVNfC3ssJI')
             .then(
               (result) => {
                 console.log(result.text);

@@ -14,7 +14,7 @@ export default function ContactUs() {
                 <span>Contact US</span>
                 <Row className='text-center contact-row'>
 
-                    <Col sm={12} md={6}>
+                    <Col sm={12} md={6} className='contact-col'>
 
                         <p>
                             <span>Il Sole Export Group </span> <br />
@@ -29,7 +29,7 @@ export default function ContactUs() {
 
                         </p>
                     </Col>
-                    <Col sm={12} md={6}>
+                    <Col sm={12} md={6} className='contact-col'>
 
                         <p>
                             <span> contact us</span> <br />

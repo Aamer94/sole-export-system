@@ -5,30 +5,34 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-background-color: #7d1538 !important;
+  background-color: #7d1538 !important;
+  /* background: linear-gradient(to right, #fff, #7d1538); */
 }
 
 /* Customize the scrollbar track */
 ::-webkit-scrollbar {
   width: 5px;
 
-  
+
 }
 
 /* Customize the scrollbar thumb (the draggable part) */
 ::-webkit-scrollbar-thumb {
-  background: #fb8500; /* Change this to the desired color */
+  background: #fb8500;
+  /* Change this to the desired color */
   border-radius: 8px;
 }
 
 /* Customize the scrollbar track on hover */
 ::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0); /* Change this to the desired color */
+  background: rgba(0, 0, 0, 0);
+  /* Change this to the desired color */
 }
 
 /* Customize the scrollbar thumb on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #ff9933; /* Change this to the desired color */
+  background: #ff9933;
+  /* Change this to the desired color */
 }
 
 

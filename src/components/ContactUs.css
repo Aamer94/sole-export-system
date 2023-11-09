@@ -2,12 +2,19 @@
  
     width: 100%;
     padding-top: 65px;
-    background-color: #353535;
+    
     color: #fff;
+   
    
 }
 .contact-us .contact-row{
     box-shadow: 0 0px 12px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to right, #ffe8d6, #7d1538);
+}
+.contact-us .contact-row .contact-col{
+
+    /* background-color: #353535; */
+ 
 }
 .contact-us span{
     font-size: 40px;

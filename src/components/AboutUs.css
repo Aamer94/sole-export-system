@@ -3,7 +3,8 @@
     width: 100%;
     padding-top: 65px;
     padding-bottom: 65px;
-    background-color: #7d1538;
+    /* background-color: #7d1538; */
+    background: linear-gradient(to right, #fff, #7d1538);
     color: #353535;
  
 }

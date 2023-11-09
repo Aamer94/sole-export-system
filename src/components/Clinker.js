@@ -11,6 +11,7 @@ import pic from './images/Rabbits feed.png'
 import DetilsProduct from './DetilsProduct';
 import CementData from './CementData';
 import IronData from './IronData';
+import ScrollToTopButton from './ScrolToTop';
 export default function Clinker() {
 
     const [selectedProduct, setSelectedProduct] = useState(null);
@@ -26,7 +27,7 @@ export default function Clinker() {
 
             {showDetils && <DetilsProduct data={selectedProduct} toggleShowDetils={toggleShowDetils} />}
             <span className='cement'> Cements</span>
-            <p className='our-products-p'>" Il Sole Group offer many type of cement "
+            <p className='our-products-p'>" Il Sole Export Group offer many type of cement "
             </p>
             <Row className='row-products'>
                 {CementData.map((item) => (
@@ -106,7 +107,7 @@ export default function Clinker() {
                     </Col>
                 )}
             </Row>
-
+            <ScrollToTopButton />
         </Container>
     )
 }
