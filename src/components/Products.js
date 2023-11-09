@@ -55,7 +55,7 @@ export default function Products() {
         <Container className='text-center continer-products'>
 
             <Row className='row-ul'>
-                <h1>Our Products</h1>
+                <span className='pro-span'>Our Products</span> 
                 <p className='our-products-p'>" Il Sole Group values the diverse needs of its
                     customers and seeks to exceed their expectations. "
                 </p>
@@ -92,7 +92,7 @@ export default function Products() {
 
 
             <Row className='row-products'>
-                <h1>Products</h1>
+                  <span className='pro-span'> products</span> 
                 {Data.map((item) => (
 
                     <Col sm={6} key={item.id} className='col-product'>

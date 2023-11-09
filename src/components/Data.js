@@ -1,7 +1,7 @@
 
 
-import fertilizers from './images/fertilizers.png'
-import fruits from './images/str444.png'
+
+
 import frozenfruits from './images/fruits.jpeg'
 import frozenpom from './images/frozenpom.png'
 import dateA from './images/dateA.png'
@@ -12,7 +12,7 @@ import okra from './images/okra 33.png'
 
 import beans from './images/greenbeans.png'
 import Grape from './images/spanich.png'
-import sagebrush from './images/sagebrush.png'
+
 import soya from './images/soya oil.png'
 import olive from './images/olivevoil.png'
 import sunflower from './images/sunflower oil.png'
@@ -74,6 +74,18 @@ import guava from './images/guava.jpeg'
 import cattle from './images/eatingcattle.png'
 import Alfalfa from './images/ha2.png'
 import livestock from './images/feed3.png'
+import eyed from './images/eyeds.png'
+import eyedb from './images/beans sm.png'
+import whitebeans from './images/beans w.png'
+import broadbeansa from './images/beans 55.png'
+import broadbeansb from './images/beans6.png'
+import crushedbeans from './images/crushed.png'
+import redlet from './images/redlent.png'
+import brownlent from './images/brownlent.png'
+import checkbeas from './images/checkbeas.png'
+import Cornkernels from './images/corn.png'
+import lupine from './images/lupini beans.png'
+import spices from './images/spices.png'
 
 
 const data = [
@@ -458,13 +470,82 @@ const data = [
         detils: 'we offer diffrent kind of Frozen Vegetables from Farm To your plate.',
         image: hazilnuts,
     },
-
     {
-        id: 60  ,
-        name: 'Sagebrush',
-        detils: 'we offer Sage that it is packed with a variety of important nutrients and compounds',
-        image: sagebrush,
+        id: 60,
+        name: 'Black-eyeds peas (A)',
+        detils: 'we provide a multiplicity of legumes.',
+        image: eyed,
     },
+    {
+        id: 61,
+        name: 'Black-eyeds peas (B)',
+        detils: 'we provide a multiplicity of legumes.',
+        image: eyedb,
+    },
+    {
+        id: 62,
+        name: 'White beans',
+        detils: 'we provide a multiplicity of legumes.',
+        image: whitebeans,
+    },
+    {
+        id: 63,
+        name: 'Broad beans (A)',
+        detils: 'we provide a multiplicity of legumes.',
+        image: broadbeansa,
+    },
+    {
+        id: 64,
+        name: 'Broad beans (B)',
+        detils: 'we provide a multiplicity of legumes.',
+        image: broadbeansb,
+    },
+    {
+        id: 64,
+        name: 'Crushed beans',
+        detils: 'we provide a multiplicity of legumes.',
+        image: crushedbeans,
+    },
+    {
+        id: 65,
+        name: 'Red Lentils (A)',
+        detils: 'we provide a multiplicity of legumes.',
+        image: redlet,
+    },
+    {
+        id: 66,
+        name: 'Brown Lentils (A)',
+        detils: 'we provide a multiplicity of legumes.',
+        image: brownlent,
+    },
+    {
+        id: 67,
+        name: 'Checkpeas',
+        detils: 'we provide a multiplicity of legumes.',
+        image: checkbeas,
+    },
+    {
+        id: 68,
+        name: 'Corn Kernels',
+        detils: 'we provide a multiplicity of legumes.',
+        image: Cornkernels,
+    },
+    {
+        id: 69,
+        name: 'Lupini beans',
+        detils: 'we provide a multiplicity of legumes.',
+        image: lupine,
+    },
+    {
+        id: 70,
+        name: 'Spices',
+        detils: 'we provide a multiplicity of spices.',
+        moreDetils:'Spices can make any simple dish flavorful and aromatic. Many different types of spices have different flavours and purposes.Spices also have several health benefits besides adding a delightful flavour to the dish. like turmeric, garlic, and ginger, has antibacterial and immunity- boosting properties. All egyptian kitchen filled with various types of essential spices required in everyday cooking.',
+        image: spices,
+    },
+
+
+
 
    
 

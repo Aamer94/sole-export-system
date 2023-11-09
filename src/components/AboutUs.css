@@ -3,15 +3,16 @@
     width: 100%;
     padding-top: 65px;
     padding-bottom: 65px;
-    /* background-color: #7d1538; */
-    background: linear-gradient(to right, #fff, #7d1538);
+    background-color: #7d1538;
+    /* background: linear-gradient(to right, #ffe8d6, #7d1538); */
     color: #353535;
  
 }
 .about-us .container-about{
     height: 100%;
 background-color: #353535;
-color: #fff;
+background: linear-gradient(to right, #ffe8d6, #7d1538);
+color: #353535;
 
 border-radius: 25px;
 margin-bottom: 10px;
@@ -44,7 +45,7 @@ margin-bottom: 10px;
  }
  .about-us .row-about .col-about{
     width: 90%;
-  border: #71a5ef 1px solid;
+  border: #ffe8d6 1px solid;
     border-radius: 30px;
 
  }
